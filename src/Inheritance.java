@@ -36,7 +36,7 @@ public class Inheritance {
 
      */
     public static void main(String[] args) {
-        Car sudan = new Car("Honda" , "Insight", 48, 4, 4, true);
+        Car sudan = new Car("Honda" , "Insight", 48, 2, 4, true);
         Car suv = new Car("Toyota", "RAV4", 43, 4, 4, true);
 
         System.out.println(sudan.getNumberOfDoors());
